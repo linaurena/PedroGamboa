@@ -15,7 +15,7 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "predeploy": "npm run build && echo 'pedrogamboa.com' > ./build/CNAME",
+    "predeploy": "npm run build && echo pedrogamboa.com > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

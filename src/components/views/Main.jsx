@@ -6,7 +6,6 @@ const Main = () => {
     return ( 
         <React.Fragment>
             <Me />
-            <HBD />
         </React.Fragment>
     );
 }

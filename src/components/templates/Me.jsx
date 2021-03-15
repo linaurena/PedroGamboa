@@ -1,24 +1,23 @@
 import React from 'react';
 import H1 from '../atoms/H1';
-import A from '../atoms/A';
 import Experience from '../organisms/Experience';
 import Header from '../atoms/Header';
-import ResumeMe from '../organisms/ResumeMe';
 import Article from '../atoms/Article';
-import HBD from '../atoms/HBD';
+import Activity from '../organisms/Activity';
+import H2 from '../atoms/H2';
 
 const Me = () => {
     return ( 
         <React.Fragment>
             <Header>
                 <H1>Pedro Gamboa</H1>
+                <H2>Arquitectos</H2>
+                <br />
+                <Activity></Activity>
                 <Article>
-                    <A>arquitectopedrogamboa@gmail.com</A>
                     <Experience />
-                    <ResumeMe />
                 </Article>
             </Header>
-            
         </React.Fragment>
     );
 }

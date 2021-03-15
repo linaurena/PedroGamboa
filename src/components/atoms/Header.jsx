@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Header = styled.section`
     //height: 70vh; valor real
-    height: 70vh;
+    height: 90vh;
     width: 100vw;
     padding-right: 7vw;
     padding-left: 7vw;
